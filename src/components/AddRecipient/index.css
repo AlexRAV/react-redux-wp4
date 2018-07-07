@@ -1,0 +1,23 @@
+.addRecipient__title {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 22px;
+    font-weight: 600;
+}
+
+.addRecipient__form {
+    white-space: nowrap;
+}
+
+.addRecipient__input {
+    display: inline-block;
+}
+
+.addRecipient__input:first-child {
+    margin-right: 20px;
+}
+
+.addRecipient__button {
+    margin-left: 30px;
+    display: inline-block;
+}

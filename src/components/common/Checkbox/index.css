@@ -1,0 +1,14 @@
+.checkboxComponent__checkbox-btn {
+    width: 12px;
+    border: none;
+    height: 12px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 2px;
+    background: var(--theme-secondary-color);
+    transition: all 0.3s ease;
+}
+
+.checkboxComponent__checkbox-btn._active {
+    background: var(--theme-primary-color);
+}

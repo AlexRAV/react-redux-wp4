@@ -1,0 +1,17 @@
+.inputComponent__label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: 300;
+}
+
+.inputComponent__input {
+    display: block;
+    border: none;
+    padding: 13px 17px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.inputComponent__input::placeholder {
+    color: var(--theme-text-disabled-color);
+}

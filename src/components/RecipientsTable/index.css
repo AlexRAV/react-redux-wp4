@@ -1,0 +1,11 @@
+.recipientTable__container-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipientTable__container-table {
+    flex: 1;
+    display: flex;
+    margin-top: 23px;
+    flex-direction: column;
+}

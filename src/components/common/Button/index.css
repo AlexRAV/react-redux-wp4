@@ -1,0 +1,21 @@
+.btnComponent {
+    background: var(--theme-primary-color);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+    padding: 11px 27px;
+    border-radius: 19px;
+    transition: all 0.3s ease;
+}
+
+.btnComponent._small {
+    padding: 3px 16px;
+}
+
+.btnComponent:hover {
+    color: var(--theme-primary-color);
+    background: #ffffff;
+}

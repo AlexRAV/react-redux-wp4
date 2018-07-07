@@ -1,0 +1,53 @@
+.recipientTable {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipientTable__header {
+    background: var(--theme-secondary-color);
+}
+
+.recipientTable__body {
+    flex: 1;
+    display: flex;
+    background: #ffffff;
+    flex-direction: column;
+}
+
+.recipientTable__row {
+    display: flex;
+}
+
+.recipientTable__cell {
+    padding: 16px 0 10px;
+}
+
+.recipientTable__cell._center {
+    text-align: center;
+}
+
+.recipientTable__cell._8 {
+    width: 8%;
+}
+
+.recipientTable__cell._29 {
+    width: 29%;
+}
+
+.recipientTable__cell._25 {
+    width: 25%;
+}
+
+.recipientTable__cell._15 {
+    width: 15%;
+}
+
+.recipientTable__cell._23 {
+    width: 23%;
+}
+
+.recipientTable__selected-checkbox {
+    padding-left: 12px;
+    box-sizing: border-box;
+}
