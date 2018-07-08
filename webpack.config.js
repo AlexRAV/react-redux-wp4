@@ -2,6 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 const config = {
+    entry: ['babel-polyfill', './src/index.js'],
     devServer: {
         contentBase: path.resolve(__dirname, 'dist'),
         port: 3000

@@ -12,7 +12,8 @@
 }
 
 .btnComponent._small {
-    padding: 3px 16px;
+    padding: 0 16px;
+    line-height: 18px;
 }
 
 .btnComponent:hover {

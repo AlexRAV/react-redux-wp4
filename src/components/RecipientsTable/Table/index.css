@@ -19,8 +19,12 @@
     display: flex;
 }
 
-.recipientTable__cell {
+.recipientTable__header .recipientTable__cell {
     padding: 16px 0 10px;
+}
+
+.recipientTable__body .recipientTable__cell {
+    padding: 12px 0 7px;
 }
 
 .recipientTable__cell._center {
